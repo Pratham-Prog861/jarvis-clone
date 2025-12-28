@@ -1,21 +1,21 @@
-# 🤖 Nova - AI Voice Assistant (JARVIS Clone)
+# Nova - AI Voice Assistant (JARVIS Clone)
 
 A high-performance, hands-free, bilingual AI voice assistant powered by Google's Gemini AI and Bytez Cloud ASR. Designed to be fast, responsive, and intelligent—just like JARVIS.
 
-## ✨ Features
+## Features
 
-- 🎤 **Hands-Free VAD**: No keys to press. Nova automatically detects when you start and stop speaking.
+- **Hands-Free VAD**: No keys to press. Nova automatically detects when you start and stop speaking.
 - 🇮🇳 **Bilingual Support**: Perfectly understands and speaks both **Hindi** and **English**.
-- 🧠 **Turbo Brain**: Powered by Google Gemini 2.5 Flash for near-instant thinking.
-- ☁️ **Cloud ASR**: Uses Bytez SDK with `Whisper-Large-V3` for superior speech recognition accuracy.
-- 🗣️ **Premium Neural Voice**: Uses `edge-tts` (Swara for Hindi, Ava for English) for human-like speech.
-- � **Parallel Execution**: Nova performs tasks (opening apps, etc.) _while_ she is speaking to you.
-- ⚡ **Direct-to-Memory**: No slow temporary files (`.wav` or `.mp3`). Everything is processed in RAM for maximum speed.
-- 📸 **Vision**: Capture photos instantly from your webcam on command.
-- ✍️ **Turbo Typing**: Near-instant text automation with support for Hindi characters.
-- 💻 **Smart App Control**: Opens any software using Windows Start Menu search integration.
+- **Turbo Brain**: Powered by Google Gemini 2.5 Flash for near-instant thinking.
+- **Cloud ASR**: Uses Bytez SDK with `Whisper-Large-V3` for superior speech recognition accuracy.
+- **Premium Neural Voice**: Uses `edge-tts` (Swara for Hindi, Ava for English) for human-like speech.
+- **Parallel Execution**: Nova performs tasks (opening apps, etc.) _while_ she is speaking to you.
+- **Direct-to-Memory**: No slow temporary files (`.wav` or `.mp3`). Everything is processed in RAM for maximum speed.
+- **Vision**: Capture photos instantly from your webcam on command.
+- **Turbo Typing**: Near-instant text automation with support for Hindi characters.
+- **Smart App Control**: Opens any software using Windows Start Menu search integration.
 
-## 🛠️ Setup
+## Setup
 
 ### Prerequisites
 
@@ -54,9 +54,9 @@ A high-performance, hands-free, bilingual AI voice assistant powered by Google's
    uv run main.py
    ```
 
-## 🎮 Usage
+## Usage
 
-1. **Start Nova**: Run the script and wait for "🤖 Nova is online".
+1. **Start Nova**: Run the script and wait for "Nova is online".
 2. **Just Talk**: Simply start speaking in Hindi or English.
 3. **Hands-Free**: Nova will detect your voice, process the request, and respond automatically.
 
@@ -68,7 +68,7 @@ A high-performance, hands-free, bilingual AI voice assistant powered by Google's
 - **Web**: "Search for the latest AI news" or "Open youtube.com"
 - **Camera**: "Capture a photo" or "Meri photo khicho"
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 jarvis-clone/
@@ -91,7 +91,7 @@ jarvis-clone/
 └── pyproject.toml      # Modern Dependency Management
 ```
 
-## � Key Dependencies
+## Key Dependencies
 
 - `google-genai`: AI Brain
 - `bytez`: Cloud Speech Recognition
@@ -101,10 +101,10 @@ jarvis-clone/
 - `pygame`: Audio playback (In-memory)
 - `sounddevice`: Voice Activity Detection
 
-## 📄 License
+## License
 
 MIT License - Feel free to use and modify!
 
 ---
 
-**Made with ❤️ by Pratham**
+**Made by Pratham**
