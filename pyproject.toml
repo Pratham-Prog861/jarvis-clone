@@ -1,0 +1,25 @@
+[project]
+name = "jarvis-clone"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "faster-whisper>=1.2.1",
+    "google-genai>=1.56.0",
+    "keyboard>=0.13.5",
+    "mouse>=0.7.1",
+    "pillow>=11.1.0",
+    "pyautogui>=0.9.54",
+    "pytesseract>=0.3.13",
+    "python-dotenv>=1.2.1",
+    "pyttsx3>=2.99",
+    "textblob>=0.19.0",
+    "sounddevice>=0.5.1",
+    "numpy>=1.24.0",
+    "edge-tts>=6.1.12",
+    "pygame>=2.6.0",
+    "pyperclip>=1.9.0",
+    "bytez>=3.0.1",
+    "opencv-python>=4.10.0.84",
+]
